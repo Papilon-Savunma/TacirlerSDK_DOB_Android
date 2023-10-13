@@ -81,7 +81,7 @@ Papilon DigitalOnBoarding is an android app sdk.
     <i>
 
     ```JAVA
-        implementation files('../app/libs/PapilonDobSdk-v.0.1.0.aar')
+        implementation files('../app/libs/PapilonDobSdk-v.0.1.1.aar')
     ```
     </i>
 
@@ -284,13 +284,14 @@ Papilon DigitalOnBoarding is an android app sdk.
         intent.putExtra("theme_color", "#000000");
         intent.putExtra("enable_button_color", "#008000");
         intent.putExtra("disable_button_color", "#FF0000");
-        intent.putExtra("font_type", "arsenal");
+        intent.putExtra("font_type", "gilroy");
         /* This version supports fonts:
             aguafina_script
             arsenal
             lato
             roboto
             ubuntu
+            gilroy
         */
     ```
 
@@ -312,7 +313,7 @@ Papilon DigitalOnBoarding is an android app sdk.
 
     </i>
 
-* <b><i>You can see an example project and "PapilonDobSdk-v.0.1.0.aar" folder in this sdk</i></b>
+* <b><i>You can see an example project and "PapilonDobSdk-v.0.1.1.aar" folder in this sdk</i></b>
 
 <br><br>
 
