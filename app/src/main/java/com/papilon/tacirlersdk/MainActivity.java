@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
         // license parameters
         intent.putExtra("token_for_license", "token_value");
-        intent.putExtra("license_id", "license_id_value");
+        intent.putExtra("license_id", "license_value");
         // ----------------------------------------------------------------
 
         // UI parameters
