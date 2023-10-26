@@ -59,17 +59,17 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("from_main", "true");
 
         // license parameters
-        intent.putExtra("token_for_license", "token_value");
-        intent.putExtra("license_id", "license_value");
+        intent.putExtra("token_for_license", "private token license");
+        intent.putExtra("license_id", "private license id");
         // ----------------------------------------------------------------
 
         // UI parameters
-        intent.putExtra("logo_image","base64 type encoded data");
-        intent.putExtra("font_type", "gilroy");
-        intent.putExtra("background_color", "#000000");
-        intent.putExtra("theme_color", "#724656");
-        intent.putExtra("enable_button_color", "#000800");
-        intent.putExtra("disable_button_color", "#800000");
+        //intent.putExtra("logo_image","base64 type encoded data");
+        //intent.putExtra("font_type", "gilroy");
+        //intent.putExtra("background_color", "#000000");
+        //intent.putExtra("theme_color", "#724656");
+        //intent.putExtra("enable_button_color", "#000800");
+        //intent.putExtra("disable_button_color", "#800000");
         // ----------------------------------------------------------------
 
         startActivity(intent);

@@ -101,7 +101,7 @@ dependencies {
     implementation ('org.jitsi.react:jitsi-meet-sdk:4.1.0') { transitive = true }
 
     //----------------
-    implementation files('../app/libs/PapilonDobSdk-v.0.1.1.aar')
+    implementation files('../app/libs/PapilonDobSdk-v.0.1.2.aar')
     //----------------
 }
 
