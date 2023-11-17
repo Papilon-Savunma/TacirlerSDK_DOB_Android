@@ -15,7 +15,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.papilon.tacirlertestapp"
+        applicationId "com.papilon.papilondemoapp"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -101,7 +101,8 @@ dependencies {
     implementation ('org.jitsi.react:jitsi-meet-sdk:4.1.0') { transitive = true }
 
     //----------------
-    implementation files('../app/libs/PapilonDobSdk-v.0.1.2.aar')
+    implementation files('../app/libs/test-PapilonDobSdk-v.2.1.aar')
+    //implementation files('../app/libs/prod-PapilonDobSdk-v.2.1.aar')
     //----------------
 }
 
